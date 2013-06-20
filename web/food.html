@@ -1,0 +1,17 @@
+<div ng-controller="FoodController">
+  <table>
+    <tbody>
+    <tr>
+      <td><label for="carbs">Carbs:</label></td>
+      <td><input type="number" id="carbs" name="carbs" ng-model="food.carbs"></td>
+    </tr>
+    <tr>
+      <td><label for="notes">Notes:</label></td>
+      <td><textarea id="notes" name="notes" ng-model="food.notes" rows="3"></textarea></td>
+    </tr>
+    <tr>
+      <td colspan="2"><input type="date" ng-model="food.date"> <input type="time" ng-model="food.time"></td>
+    </tr>
+    </tbody>
+  </table>
+</div>

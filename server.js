@@ -68,5 +68,5 @@ app.get('/', function(req, res) {
   res.send('<html><body>Try <a href="/api/tests">/api/tests</a>!</body></html>');
 });
 
-
-app.listen(3000);
+var port = process.env.PORT || 5000;
+app.listen(port);

@@ -3,12 +3,12 @@
     "units": 16,
     "type": "Levemir",
     "notes": "",
-    "date": 1371638314497
+    "timestamp": 1371638314497
   },
   {
     "units": 6,
     "type": "Humalog",
     "notes": "for the burrito",
-    "date": 1371638314497
+    "timestamp": 1371638314497
   }
 ]
